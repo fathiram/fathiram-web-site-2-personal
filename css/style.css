@@ -351,6 +351,21 @@ body.about-page {
   background-repeat: no-repeat;
   background-position: center;
 }
+.about-img {
+  width: 200px;          /* bisa disesuaikan ukuran thumbnail */
+  height: auto;         /* biar proporsional sesuai tinggi asli */
+  object-fit: contain;  /* menjaga rasio asli gambar */
+  margin-right: 15px;   /* jarak ke teks */
+  border-radius: 0;     /* hapus lingkaran */
+}
+
+.logo-img {
+  width: 200px;          /* bisa disesuaikan ukuran thumbnail */
+  height: auto;         /* biar proporsional sesuai tinggi asli */
+  object-fit: contain;  /* menjaga rasio asli gambar */
+  margin-right: 15px;   /* jarak ke teks */
+  border-radius: 0;     /* hapus lingkaran */
+}
 
 
 
@@ -428,4 +443,5 @@ body.about-page {
     max-width: 80%;      /* menyesuaikan layar HP */
   }
 }
+
 
